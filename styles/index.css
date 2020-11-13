@@ -1,0 +1,69 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Khula:wght@300;400;600;700;800&display=swap');
+
+
+:root {
+    --dark-blue: rgb(19,14,48);
+    --blue: rgb(34, 52, 101);
+    --light-blue: rgb(139, 220, 234);
+    --orange: rgb(237,71,12);
+    --grey: rgb(239, 238, 228);
+    /* palette also includes `white`, omitted for the sake of brevity */
+}
+
+html, body {
+    height: 100%;
+    margin: 0px;
+}
+
+html {
+    font-family: 'Khula', sans-serif;
+}
+
+.container {
+    height: 100%;
+}
+
+.hero {
+    background-color: var(--dark-blue);
+    clip-path: polygon(0 0, 90% 0, 70% 100%, 0% 100%);
+}
+
+.product {
+    background-color: var(--grey);
+}
+
+.team {
+    background-color: var(--blue);
+}
+
+header {
+    /* background-color: var(--blue); */
+    padding: 18px 28px;
+}
+
+.nav-logo-image {
+    height: 28px;
+    float: left;
+    margin-right: 25px;
+}
+
+.navbar {
+    list-style-type: none;
+    margin: 15px 15px 0px 15px;
+}
+
+.navbar li {
+    display: inline-block;
+    vertical-align: top;
+} 
+
+.navbar-link {
+    margin: 4px 20px;
+}
+
+.navbar-link a {
+    color: white;
+    padding: 10px 35px;
+}
+
