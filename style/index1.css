@@ -1,0 +1,158 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Khula:wght@300;400;600;700;800&display=swap');
+
+
+:root {
+    --dark-blue: rgb(19,14,48);
+    --dark-blue-opacity: rgba(19,14,48,.80);
+    --blue: rgb(34, 52, 101);
+    --light-blue: rgb(139, 220, 234);
+    --orange: rgb(237,71,12);
+    --grey: rgb(239, 238, 228);
+    /* palette also includes `white`, omitted for the sake of brevity */
+}
+
+
+html, body {
+    height: 100%;
+    margin: 0px;
+    font-family: 'Khula', sans-serif;
+}
+
+
+/* .container {
+    height: 100%;
+    /* display: flex;
+    align-items: center;
+    justify-content: center;
+}
+*/
+/* Setup grid */
+
+/* 7 (3, 2, 2) */
+.inner-container {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr) minmax(50px, 100px);
+    grid-column-gap: 1fr;
+    /* max-width: 1200px; */
+    padding: 20px;
+}
+
+.col-3 {
+    border: solid 1px;
+}
+
+/* col 1 */
+/* .page-title-container {
+    grid-column: 1 / span 3;
+    border: solid 1px;
+} */
+
+/* .col-2 {
+    grid-column: 4 / span 2;
+    border: solid 1px;
+}
+
+.col-3 {
+    grid-column: 6 / span 2;
+    border: solid 1px;
+} */
+
+
+
+
+.product {
+    background-color: white;
+}
+
+.team {
+    background-color: var(--grey);
+}
+
+/* Dark background header */
+
+header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+nav {
+    max-width: 1200px;
+    padding: 25px;
+}
+
+.logo-container {
+    float: left;
+    margin: 10px;
+}
+
+.logo-image {
+    height: 28px;
+    margin-right: 50px;
+}
+
+.nav-menu {
+    list-style: none;
+    margin: 10px;
+}
+
+.nav-menu-item {
+    display: inline-block;
+    margin: 3px 40px 0px 40px;
+}
+
+.nav-menu-link {
+    color: white;
+    text-decoration: none;
+    padding: 3px;
+    border-bottom: solid 2px rgba(0,0,0,0);
+    transition: all 0.5s ease-out;
+
+}
+
+.nav-menu-link:hover {
+    color: var(--grey);
+    border-bottom: solid 2px var(--orange);
+}
+
+/* Light background header */
+
+/* -- finish later -- */
+
+
+
+/* Hero section */
+
+.hero {
+    /* background-color: var(--dark-blue); */
+    background: radial-gradient(var(--dark-blue-opacity),var(--dark-blue)), url(../images/editing.jpeg);
+    background-size: cover;
+}
+
+.hero-container {
+    grid-column: 1 / span 1;
+}
+
+.hero-heading {
+    color: white;
+    font-size: 68px;
+    margin: 0;
+
+}
+
+.hero-line {
+    width: 40%;
+    margin-bottom: 10px 0px 30px 0px;
+    border-bottom: solid 5px var(--orange);
+
+}
+
+.hero-lead {
+    color: white;
+    font-size: 20px;
+    font-weight: 300;
+
+
+}
+

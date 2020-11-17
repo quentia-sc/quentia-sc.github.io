@@ -1,0 +1,9 @@
+:root {
+    --dark-blue: rgb(19,14,48);
+    --dark-blue-opacity: rgba(19,14,48,.80);
+    --blue: rgb(34, 52, 101);
+    --light-blue: rgb(139, 220, 234);
+    --orange: rgb(237,71,12);
+    --grey: rgb(239, 238, 228);
+    /* palette also includes `white`, omitted for the sake of brevity */
+}

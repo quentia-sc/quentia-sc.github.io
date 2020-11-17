@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Khula:wght@300;400;600;700;800&display=swap');
+
+:root {
+    --step-up-5: 2em;
+    --step-up-4: 1.7511em;
+    --step-up-3: 1.5157em;
+    --step-up-2: 1.3195em;
+    --step-up-1: 1.1487em;
+    /* baseline: 1em */
+    --step-down-1: 0.8706em;
+    --step-down-2: 0.7579em;
+    --step-down-3: 0.6599em;
+    --step-down-4: 0.5745em;
+    --step-down-5: 0.5em;
+}
