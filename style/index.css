@@ -162,8 +162,29 @@ p {
     margin-right: 25px;
 }
 
-/* Team */
-
 .fa-check {
     color: var(--orange);
+}
+
+/* Team */
+
+.person-name {
+    font-size: var(--step-down-1);
+    margin: 0px 0px 3px 0px;
+}
+
+.person-image {
+    width: 100%;
+    height: auto;
+}
+
+.person-title {
+    font-size: var(--step-down-1);
+    color: var(--orange);
+    margin: 0px 0px 3px 0px;
+}
+
+.person-description {
+    font-size: var(--step-down-2);
+    margin: 0px 0px 3px 0px;
 }
