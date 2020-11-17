@@ -170,21 +170,22 @@ p {
 
 .person-name {
     font-size: var(--step-down-1);
-    margin: 0px 0px 3px 0px;
+    margin: 0px 0px 5px 0px;
 }
 
 .person-image {
     width: 100%;
     height: auto;
+    margin: 0px 0px 10px 0px;
 }
 
 .person-title {
     font-size: var(--step-down-1);
     color: var(--orange);
-    margin: 0px 0px 3px 0px;
+    margin: 0px 0px 5px 0px;
 }
 
 .person-description {
     font-size: var(--step-down-2);
-    margin: 0px 0px 3px 0px;
+    margin: 0px 0px 30px 0px;
 }
